@@ -7,11 +7,11 @@ PHP Simple and Secure Contact Sendmail Script by Gene Hawkins
 // Begin Configuration - Easy Config in this section
 
 // Admin Email Address to send message to
-$webmaster_email = 'change_to_your_email';
+$webmaster_email = 'guardiansofspartax@gmail.com';
 
 // Show Website name and logo with URL link in Table Header and URL link in footer
 $site_name = 'Site Name'; // Use your Site / Company Name here
-$site_url = 'https://www.yourdomain.com'; // Best practice is to use https:// and do not leave a trailing backslash "/" IMPORTANT!
+$site_url = 'https://www.llakakakkk.herokuapp.com'; // Best practice is to use https:// and do not leave a trailing backslash "/" IMPORTANT!
 $site_logo = '/image_folder/image_name.png'; // Start with a backslash "/" IMPORTANT! - Upload your logo to appropriate directory
 
 // Add extra text after Website Name in Table Header.
