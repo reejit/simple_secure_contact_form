@@ -10,8 +10,8 @@ PHP Simple and Secure Contact Sendmail Script by Gene Hawkins
 $webmaster_email = 'guardiansofspartax@gmail.com';
 
 // Show Website name and logo with URL link in Table Header and URL link in footer
-$site_name = 'Site Name'; // Use your Site / Company Name here
-$site_url = 'https://www.llakakakkk.herokuapp.com'; // Best practice is to use https:// and do not leave a trailing backslash "/" IMPORTANT!
+$site_name = 'Contact Your LOL'; // Use your Site / Company Name here
+$site_url = 'https://safe-hollows-13515.herokuapp.com/'; // Best practice is to use https:// and do not leave a trailing backslash "/" IMPORTANT!
 $site_logo = '/image_folder/image_name.png'; // Start with a backslash "/" IMPORTANT! - Upload your logo to appropriate directory
 
 // Add extra text after Website Name in Table Header.
@@ -39,10 +39,10 @@ $form_name = 'Inquiry'; // Whatever you want
 /*
  Using Google Re Captcha - Go to https://www.google.com/recaptcha/admin/ to get your Keys to use this option
  Place this line of code before </head> tag on your HTML page where your Contact Form is: <script src='https://www.google.com/recaptcha/api.js'></script>
- Place this line of code in the body of the HTML page where you want your captcha box to be: <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+ Place this line of code in the body of the HTML page where you want your captcha box to be: <div class="g-recaptcha" data-sitekey="6Ldb-VQaAAAAAK_y7lVgWeyLV14HZ6Wm5cUbWEIi"></div>
 */
 
-$secret = 'YOUR_OWN_SECRET_KEY'; // Change this to your secret key
+$secret = '6Ldb-VQaAAAAAMzsx73YBy6IGZxnvMnxpPE5mUQs'; // Change this to your secret key
 $url = "https://www.google.com/recaptcha/api/siteverify?secret=$secret&response=".$_POST['g-recaptcha-response'];
 $verify = json_decode(file_get_contents($url));
 
